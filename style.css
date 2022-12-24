@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    /*   لضبط الحجوم لتناسب الصفحة      */
+}
+
+body {
+    background: rgb(15, 52, 65);
+    width: 100%;
+    height: 700px;
+}
+
+section {
+    padding: 10px 15px;
+    margin: auto;
+    width: 1000px;
+    height: 700px;
+    border-radius: 5px;
+}
+
+.text {
+    width: 100%;
+    height: 435px;
+}
+
+button {
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+    background-color: transparent;
+    padding: 10px 20px 15px;
+    cursor: pointer;
+    height: 50px;
+    margin: 16px;
+}
+
+button:hover {
+    background-color: #02020244;
+    border-radius: 7px;
+
+}
+
+label {
+    color: #ffffff;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+select {
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #E6E6E6;
+}
+
+input[type=text] {
+    background-color: #E6E6E6;
+    width: 125px;
+    height: 30px;
+    font-size: medium;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding: 5px;
+    /* background-color: rgb(19, 73, 73); */
+}
+
+input[type=color] {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+input[type=number] {
+    background-color: #E6E6E6;
+    padding: 4px;
+    font-size: medium;
+    width: 45px;
+    border-radius: 7px;
+    height: 30px;
+}
+
+.inputs {
+    height: 40px;
+}
+
+#Replace {
+    margin: 0px 0px 0px 10px;
+    height: 35px;
+    border-radius: 7px;
+}
+
+#Replace:hover {
+    background-color: #02020244;
+    height: 38px;
+}
+
+textarea::selection {
+    color: rgb(180, 177, 177);
+    background: rgba(0, 0, 0, 0.59);
+}
+
+.div3 {
+    border: 2px solid #ffffff2f;
+    background: rgba(255, 255, 255, 0.099);
+    margin: 10px 0px 10px;
+    border-radius: 5px;
+    box-shadow: #00000037 0px 5px 40px;
+    height: 133px;
+    padding: 10px 10px 0px;
+}
+
+br {
+    /*بحاجة للفهم */
+    content: "";
+    margin: 30px;
+    display: block;
+}
+
+textarea {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(164, 171, 174, 0.19);
+    resize: none;
+    border-radius: 5px;
+    border-color: rgba(255, 255, 255, 0.308);
+    font-size: xx-large;
+    padding: 10px;
+    box-shadow: #00000037 0px 5px 40px;
+}
+
+#Calc {
+    color: rgb(180, 177, 177);
+    background-color: rgba(164, 171, 174, 0.19);
+    box-shadow: #00000037 0px 5px 40px;
+    border-radius: 7px;
+    margin: 17px 17%;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.308);
+    padding: 15px 10px 19px;
+}
+
+p {
+    width: 50%;
+    margin-left: 42%;
+    color: rgb(238, 238, 238);
+}
+
+#spans {
+    color: rgb(237, 229, 229);
+    margin: 10px;
+}
+
+.buttons {
+    text-align: center;
+    height: 68px;
+    margin-top: 10px;
+}

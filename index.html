@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Editor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+
+</head>
+
+<body>
+    <section>
+        <div class="div1">
+            <div class="div2">
+                <div class="div3">
+                    <div class="inputs">
+                        <span id="spans">Font Family :</span>
+                        <label>
+                            <select id="select">
+                                <option value="Arial">Arial</option>
+                                <option value="Verdana">Verdana</option>
+                                <option value="Tahoma">Tahoma</option>
+                                <option value="Trebuchet">Trebuchet</option>
+                            </select>
+                        </label>
+                        <span id="spans">Font Size :</span>
+                        <input id="font-size" type="number" value="26" min="10" max="100" onchange="num(this)">
+                        <span id="spans">Replace a Word :</span>
+                        <input type="text" placeholder="Old Word" id="find">
+                        <input type="text" placeholder="New Word" id="replace">
+                        <button type="button" id="Replace" onclick="ReplaceWord()"><i
+                                class="fa-solid fa-rotate"></i></button>
+                        </label>
+                    </div>
+                    <div class="buttons">
+                        <button type="button" onclick="myFunction('undo')"><i class="fa-solid fa-arrow-left"></i>
+                        </button>
+                        <button type="button" onclick="myFunction('redo')"><i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                        <button type="button" onclick="bold()"><i class="fa-solid fa-bold"></i>
+                        </button>
+                        <button type="button" onclick="italic()"><i class="fa-solid fa-italic"></i>
+                        </button>
+                        <button type="button" onclick="left()"><i class="fa-solid fa-align-left"></i>
+                        </button>
+                        <button type="button" onclick="center()"><i class="fa-solid fa-align-center"></i>
+                        </button>
+                        <button type="button" onclick="right()"><i class="fa-solid fa-align-right"></i>
+                        </button>
+                        <button type="button" onclick="under()"><i class="fa-solid fa-underline"></i>
+                        </button>
+                        <button type="button" onclick="slash()">
+                            <i class="fa-solid fa-text-slash"></i>
+                        </button>
+                        <label>
+                            <input type="color" onchange="colors(this)">
+                        </label>
+                    </div>
+                    <br>
+                </div>
+                <div class="text">
+                    <textarea id="textarea1" placeholder="Type Here..."></textarea>
+                </div>
+            </div>
+            <button type="button" id="Calc" onclick="wordsCount()">Words Count</button>
+            <button type="button" id="Calc" onclick="lettersCount()">letters Count</button>
+        </div>
+        <p> Word Count:
+            <span id="show">0</span>
+        <p>letters count:
+            <span id="show1">0</span>
+        </p>
+        </p>
+    </section>
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
