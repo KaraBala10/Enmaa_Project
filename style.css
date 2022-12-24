@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    /*   لضبط الحجوم لتناسب الصفحة      */
 }
 
 body {
@@ -62,7 +61,6 @@ input[type=text] {
     border-radius: 5px;
     margin-left: 10px;
     padding: 5px;
-    /* background-color: rgb(19, 73, 73); */
 }
 
 input[type=color] {
@@ -113,7 +111,6 @@ textarea::selection {
 }
 
 br {
-    /*بحاجة للفهم */
     content: "";
     margin: 30px;
     display: block;
